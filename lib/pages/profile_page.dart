@@ -49,10 +49,10 @@ class MyView extends GetView<ProfileController> {
                                 effects: controller.effectsSecond.value,
                                 delay: Duration(
                                     milliseconds: index == 0 || index == 3
-                                        ? 180
+                                        ? 500
                                         : index == 1 || index == 4
                                             ? 300
-                                            : 500))
+                                            : 100))
                             // .then()
                             // .moveX(
                             //   duration: Duration(

@@ -20,7 +20,7 @@ class ProfileController extends GetxController {
     const ShakeEffect(),
     const ThenEffect(),
     MoveEffect(
-      begin: Offset(-Get.width, 0),
+      begin: Offset(Get.width, 0),
     ),
   ]).obs;
 
@@ -48,7 +48,7 @@ pageController.addListener(() {
         effectsSecond.value.assignAll([
           const ThenEffect(),
           MoveEffect(
-            begin: Offset(-Get.width, 0),
+            begin: Offset(Get.width, 0),
           )
         ]);
       }
